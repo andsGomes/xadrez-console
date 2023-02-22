@@ -1,7 +1,6 @@
-using System;
 namespace xadrez_console.Board
 {
-    public class Position
+  public class Position
     {
         public int Line { get; set; }
         public int Column { get; set; }
