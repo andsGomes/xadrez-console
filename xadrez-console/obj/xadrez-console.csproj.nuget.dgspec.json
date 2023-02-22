@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/ands/Development/asp.netcore/CurseOop/xadrez/xadrez-console/xadrez-console.csproj": {}
+    "/home/ands/Development/asp.netcore/CurseOop/xadrez-console/xadrez-console/xadrez-console.csproj": {}
   },
   "projects": {
-    "/home/ands/Development/asp.netcore/CurseOop/xadrez/xadrez-console/xadrez-console.csproj": {
+    "/home/ands/Development/asp.netcore/CurseOop/xadrez-console/xadrez-console/xadrez-console.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ands/Development/asp.netcore/CurseOop/xadrez/xadrez-console/xadrez-console.csproj",
+        "projectUniqueName": "/home/ands/Development/asp.netcore/CurseOop/xadrez-console/xadrez-console/xadrez-console.csproj",
         "projectName": "xadrez-console",
-        "projectPath": "/home/ands/Development/asp.netcore/CurseOop/xadrez/xadrez-console/xadrez-console.csproj",
+        "projectPath": "/home/ands/Development/asp.netcore/CurseOop/xadrez-console/xadrez-console/xadrez-console.csproj",
         "packagesPath": "/home/ands/.nuget/packages/",
-        "outputPath": "/home/ands/Development/asp.netcore/CurseOop/xadrez/xadrez-console/obj/",
+        "outputPath": "/home/ands/Development/asp.netcore/CurseOop/xadrez-console/xadrez-console/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/ands/.nuget/NuGet/NuGet.Config"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iDsZFvRMRKgCtEMxS4utARiCrvC6K4r3BSzk52p4c3MNyKqH4im1xWVQ2B+M3HrS+EsaBFBqpnpmRK+VYUjkxw==",
+  "dgSpecHash": "Ohoq8tjgCHlbKbWfQKsdCFNrBIaBPrX7E4EPUzjPH5eNOlaA55OdCfyQJUk6bAP2ripEy5mchEW3bjtilBmveA==",
   "success": true,
-  "projectFilePath": "/home/ands/Development/asp.netcore/CurseOop/xadrez/xadrez-console/xadrez-console.csproj",
+  "projectFilePath": "/home/ands/Development/asp.netcore/CurseOop/xadrez-console/xadrez-console/xadrez-console.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
