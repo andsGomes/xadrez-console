@@ -1,6 +1,6 @@
-using xadrez_console.Board.Enum;
+using xadrez_console.board.Enum;
 
-namespace xadrez_console.Board
+namespace xadrez_console.board
 {
     public class Parts
     {
@@ -17,5 +17,6 @@ namespace xadrez_console.Board
             MovementQuantity = 0;
 
         }
+
     }
 }

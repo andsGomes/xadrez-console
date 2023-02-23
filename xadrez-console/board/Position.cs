@@ -1,4 +1,4 @@
-namespace xadrez_console.Board
+namespace xadrez_console.board
 {
   public class Position
     {

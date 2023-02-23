@@ -1,4 +1,4 @@
-namespace xadrez_console.Board
+namespace xadrez_console.board
 {
     public class Board
     {
@@ -11,6 +11,10 @@ namespace xadrez_console.Board
             Line = line;
             Column = column; 
             parts =  new Parts[line, column];
+        }
+
+        public Parts part(int line, int column){
+             return parts[line, column];
         }
 
     }

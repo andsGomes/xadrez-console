@@ -1,4 +1,4 @@
-namespace xadrez_console.Board.Enum
+namespace xadrez_console.board.Enum
 {
     public enum Color 
     {
