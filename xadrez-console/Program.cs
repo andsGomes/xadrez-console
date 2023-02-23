@@ -18,7 +18,7 @@ try
   // ScreenBoard.PrintBoard(board);
 
 
-  ChessPosition pos = new ChessPosition('A', 1);
+  ChessPosition pos = new ChessPosition('A', 2);
   System.Console.WriteLine(pos); 
   System.Console.WriteLine(pos.toPosition());
 
