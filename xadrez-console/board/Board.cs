@@ -12,9 +12,12 @@ namespace xadrez_console.board
             Column = column; 
             parts =  new Parts[line, column];
         }
-
         public Parts part(int line, int column){
              return parts[line, column];
+        }
+        public void placePart(Parts p, Position pos){
+            parts[pos.Line, pos.Column] = p;
+            p.Position = pos;
         }
 
     }
