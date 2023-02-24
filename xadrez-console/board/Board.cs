@@ -29,6 +29,16 @@ namespace xadrez_console.board
             parts[pos.Line, pos.Column] = p;
             p.Position = pos;
         }
+        public Parts removePart(Position pos){
+            if(part(pos)== null) 
+              return null;
+            
+            Parts aux = part(pos);
+            aux.Position = null;
+            parts[pos.Line, pos.Column] = null;
+            return aux;
+
+        }
         public bool validPosition(Position pos){
             if(pos.Line < 0 || pos.Line >= Line || pos.Column < 0 || pos.Column >= Column){
                 return false;
