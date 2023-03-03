@@ -8,12 +8,23 @@ Console.Clear();
 try
 {
   ChessGame play = new ChessGame();
+  
+  while(!play.finished){
+    Console.Clear();
+    ScreenBoard.PrintBoard(play.board);
+    
+    System.Console.WriteLine("");
+    System.Console.Write("Origin: ");
+    Position origin = ScreenBoard.readPositionChess().toPosition(); 
+    System.Console.Write("Destiny: ");
+    Position destiny = ScreenBoard.readPositionChess().toPosition();
 
-  ScreenBoard.PrintBoard(play.board);
+    play.executeMovement(origin, destiny);
+    
+  }
 
-  // ChessPosition pos = new ChessPosition('A', 2);
-  // System.Console.WriteLine(pos); 
-  // System.Console.WriteLine(pos.toPosition());
+  
+
 
 }
 catch (BoardException e)

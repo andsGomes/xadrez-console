@@ -8,12 +8,14 @@ namespace xadrez_console.xadrez
         public Board board {get; private set;}  
         private int shift;
         private Color currentPlay;
+        public bool finished { get; private set; }
 
         public ChessGame()
         {
             board = new Board(8,8);
             shift = 1; 
             currentPlay = Color.White;
+            finished = false;
             putParts();
         }
 
